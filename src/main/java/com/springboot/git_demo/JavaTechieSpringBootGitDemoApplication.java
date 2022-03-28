@@ -6,10 +6,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class JavaTechieSpringBootGitDemoApplication {
 
+	public void addData(String data) {
+		if (data.equals(Constant.data_type)) {
+			System.out.println("Welcome");
+		}
+	}
+
 	public static void main(String[] args) {
 		SpringApplication.run(JavaTechieSpringBootGitDemoApplication.class, args);
 		System.out.println("Spring Boot Demo...");
-		System.out.println("Spring Boot Professional...");
 	}
 
 }
