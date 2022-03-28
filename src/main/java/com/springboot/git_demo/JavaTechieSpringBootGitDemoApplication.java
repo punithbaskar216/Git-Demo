@@ -11,6 +11,11 @@ public class JavaTechieSpringBootGitDemoApplication {
 			System.out.println("Welcome");
 		}
 	}
+	
+	public void addMethod()
+	{
+		System.out.println("new Method");
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(JavaTechieSpringBootGitDemoApplication.class, args);
